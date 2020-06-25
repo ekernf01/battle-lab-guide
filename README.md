@@ -21,6 +21,6 @@ The lab uses Slack for most quick communication, so don't hesitate to direct mes
 - `#battle_lab_random` - the lab's social channel    
 
 ### Get familiar with the research
-The [lab website](https://battlelab.jhu.edu/) has a *Publications* section that you can check out for a full list of the lab's previous work.  For a longer list of recommended papers in each of the lab's areas of interest, check out the key_papers.
+The [lab website](https://battlelab.jhu.edu/) has a *Publications* section that you can check out for a full list of the lab's previous work.  For a longer list of recommended papers in each of the lab's areas of interest, check out [this compiled list of relevant papers](https://docs.google.com/document/d/1mLs9rMtLIp2Xu4z7ChIIcp838jDdPdoYkHoynu_2NBY/edit).
 
 
