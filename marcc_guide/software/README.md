@@ -10,3 +10,4 @@ And to unload, type
 For more info check out [https://www.marcc.jhu.edu/getting-started/software/](https://www.marcc.jhu.edu/getting-started/software/)
 
 ## Singularity Containers
+Learn more about Singularity 2.6 by reading the [documentation](https://sylabs.io/guides/2.6/user-guide/)
