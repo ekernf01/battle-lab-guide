@@ -11,3 +11,6 @@ For more info check out [https://www.marcc.jhu.edu/getting-started/software/](ht
 
 ## Singularity Containers
 Learn more about Singularity 2.6 by reading the [documentation](https://sylabs.io/guides/2.6/user-guide/)
+
+## Install snakemake
+Please follow the steps mentioned [here](./install_snakemake.md)
