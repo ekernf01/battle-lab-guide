@@ -20,6 +20,7 @@ module load python/3.7.4-anaconda
 ############################################################
 
 # go to a directory to create conda 
+# NOTE: MARCC recommends creating conda environments inside ~/work/code/
 cd /home-1/asaha6@jhu.edu/python_env/conda # remember to change the directory
 
 # create reqs.yaml file with basic packages
