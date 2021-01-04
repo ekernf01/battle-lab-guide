@@ -3,13 +3,17 @@
 If you have questions about using Linux on MARCC, check out the tutorials provided by the MARCC group here: https://www.marcc.jhu.edu/training/tutorial-series/
 and here: https://marcc-hpc.github.io/esc/. Core topics include: *custom environments, SLURM scheduling, singularity containers, code profiling and parallelization*.
 Resources for many other common lab questions are available here too, including:
- 
+ - [Getting started](https://www.marcc.jhu.edu/training/intro-sessions/)
  - [Upload/download files to MARCC via command line (see *Storing and accessing data*)](https://www.marcc.jhu.edu/getting-started/basic/) or [via Globus](https://www.marcc.jhu.edu/transfer-data-globus/)
  - [Issues installing *packages in R*?](https://www.marcc.jhu.edu/managing-r-packages-a-case-study/)
  - [Can't run a program or need a *docker/singularity*?](https://www.marcc.jhu.edu/managing-r-packages-a-case-study/)
  - [Managing multiple jobs in an interactive node *(screen/htop)*](https://www.marcc.jhu.edu/simple-profiling-with-the-top-utility/)
  - [Submitted jobs taking too long to start](https://www.marcc.jhu.edu/job-priority-and-the-slurm-scheduler/)
  - [Clean up your home directory if you get locked out (via *Globus*)](https://www.marcc.jhu.edu/troubleshoot/globus-clean-home/)
+ 
+Lab members have compiled other resources that may be useful for various jobs, including:
+ - Installing and using snakemake
+ - Visualizing images on MARCC via X11 forwarding
 
 ## Using battle-bigmem
 -  **Access to server:** to access this server, log in to MARCC using your normal log in, then `ssh battle-bigmem` using your same password
