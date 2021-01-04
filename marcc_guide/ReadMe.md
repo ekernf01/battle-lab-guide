@@ -14,7 +14,7 @@ Resources for many other common lab questions are available here too, including:
  
 Lab members have compiled other resources that may be useful for various jobs, including:
  - [Installing snakemake](https://github.com/battle-lab/battle-lab-guide/blob/master/marcc_guide/software/install_snakemake.md)
- - Visualizing images on MARCC via X11 forwarding
+ - [Visualizing images on MARCC via X11 forwarding](https://github.com/battle-lab/battle-lab-guide/blob/master/marcc_guide/x11_forwarding.md)
  - [Install PEER using Singularity](https://github.com/battle-lab/battle-lab-guide/blob/master/marcc_guide/software/PEER-singularity-docker.md)
 
 ## Using battle-bigmem
