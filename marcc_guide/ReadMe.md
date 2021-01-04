@@ -10,6 +10,7 @@ Resources for many other common lab questions are available here too, including:
  - [Managing multiple jobs in an interactive node *(screen/htop)*](https://www.marcc.jhu.edu/simple-profiling-with-the-top-utility/)
  - [Submitted jobs taking too long to start](https://www.marcc.jhu.edu/job-priority-and-the-slurm-scheduler/)
  - [Clean up your home directory if you get locked out (via *Globus*)](https://www.marcc.jhu.edu/troubleshoot/globus-clean-home/)
+ - [I/O Issues](https://www.marcc.jhu.edu/bluecrab-storage-guidelines/)
  
 Lab members have compiled other resources that may be useful for various jobs, including:
  - [Installing snakemake](https://github.com/battle-lab/battle-lab-guide/blob/master/marcc_guide/software/install_snakemake.md)
