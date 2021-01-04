@@ -1,4 +1,8 @@
 # MARCC Guide
+## Scientific Computing resources
+If you have questions about using Linux on MARCC, check out the tutorials provided by the MARCC group here: https://www.marcc.jhu.edu/training/tutorial-series/
+and here: https://marcc-hpc.github.io/esc/. Core topics include: **custom environments, SLURM scheduling, singularity containers, code profiling and parallelization**
+
 ## Using battle-bigmem
 -  **Access to server:** to access this server, log in to MARCC using your normal log in, then `ssh battle-bigmem` using your same password
 - **I/O issues:** `battle-bigmem` has been known to throw an `I/O error` occassionally and terminate a job, especially when dealing with large I/O operations. For some ideas on how to address this, refer to the MARCC webpage here: https://www.marcc.jhu.edu/bluecrab-storage-guidelines/. These suggestions primarily have to do with where large files are being written to or read from.
