@@ -4,7 +4,7 @@ If you have questions about using Linux on MARCC, check out the tutorials provid
 and here: https://marcc-hpc.github.io/esc/. Core topics include: *custom environments, SLURM scheduling, singularity containers, code profiling and parallelization*.
 Resources for many other common lab questions are available here too, including:
  
- - [Upload/download files to MARCC (see *Storing and accessing data*)](https://www.marcc.jhu.edu/getting-started/basic/)
+ - [Upload/download files to MARCC via command line (see *Storing and accessing data*)](https://www.marcc.jhu.edu/getting-started/basic/) or [via Globus](https://www.marcc.jhu.edu/transfer-data-globus/)
  - [Issues installing *packages in R*?](https://www.marcc.jhu.edu/managing-r-packages-a-case-study/)
  - [Can't run a program or need a *docker/singularity*?](https://www.marcc.jhu.edu/managing-r-packages-a-case-study/)
  - [Managing multiple jobs in an interactive node *(screen/htop)*](https://www.marcc.jhu.edu/simple-profiling-with-the-top-utility/)
