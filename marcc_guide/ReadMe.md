@@ -12,8 +12,9 @@ Resources for many other common lab questions are available here too, including:
  - [Clean up your home directory if you get locked out (via *Globus*)](https://www.marcc.jhu.edu/troubleshoot/globus-clean-home/)
  
 Lab members have compiled other resources that may be useful for various jobs, including:
- - Installing and using snakemake
+ - [Installing snakemake](https://github.com/battle-lab/battle-lab-guide/blob/master/marcc_guide/software/install_snakemake.md)
  - Visualizing images on MARCC via X11 forwarding
+ - [Install PEER using Singularity](https://github.com/battle-lab/battle-lab-guide/blob/master/marcc_guide/software/PEER-singularity-docker.md)
 
 ## Using battle-bigmem
 -  **Access to server:** to access this server, log in to MARCC using your normal log in, then `ssh battle-bigmem` using your same password
