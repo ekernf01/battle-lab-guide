@@ -27,7 +27,7 @@ Lab members have compiled other resources that may be useful for various jobs, i
 - **Keep bigmem's cores available:** To help manage your jobs when using `battle-bigmem`, copy the script from `ninjakiller.sh` into your `~/.bashrc` file. After finishing a session on `battle-bigmem`, use `ninjakiller` to list which jobs you still have running and to cancel the ones you no longer need. For help documentation on using the script, simply call `ninjakiller -h`
   - For a full listing of jobs running, use the `htop` command. The `F9` button can be used in `htop` to kill jobs there too
   - To kill all your jobs and logout, run `ninjakiller go`
-## Software tips
+## TODO
 - How to install software on MARCC (the basic `module load` function, `Singularity` containers, etc)
 - Workflow tools like `snakemake`
 
