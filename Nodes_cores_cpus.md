@@ -53,5 +53,6 @@ A typical slurm job script header looks like below:
 #SBATCH --job-name=Muspcorr
 #SBATCH --output=/work-zfs/abattle4/ashis/progres/scnet/gtex_v7/Muscle_Skeletal.v7.corrected.VAR.500/jobs/myscript.sh.%j.out
 #SBATCH --error=/work-zfs/abattle4/ashis/progres/scnet/gtex_v7/Muscle_Skeletal.v7.corrected.VAR.500/jobs/ myscript.sh.%j.err
-Note: useful details about running jobs on marcc are available here: https://www.marcc.jhu.edu/getting-started/running-jobs/. For further details, have a look at the slurm manual: https://slurm.schedmd.com/sbatch.html.
 ```
+
+Note: useful details about running jobs on marcc are available here: [https://www.marcc.jhu.edu/getting-started/running-jobs/](https://www.marcc.jhu.edu/getting-started/running-jobs/). For further details, have a look at the slurm manual: [https://slurm.schedmd.com/sbatch.html](https://slurm.schedmd.com/sbatch.html).
