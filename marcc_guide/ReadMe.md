@@ -14,7 +14,7 @@ Resources for many other common lab questions are available here too, including:
  - [I/O Issues](https://www.marcc.jhu.edu/bluecrab-storage-guidelines/)
  
 Lab members have compiled other resources that may be useful for various jobs, including:
- - [Installing snakemake](https://github.com/battle-lab/battle-lab-guide/blob/master/marcc_guide/software/install_snakemake.md)
+ - [Snakemake: A template to develop and run your project on MARCC](https://github.com/battle-lab/snakemake)
  - [Visualizing images on MARCC via X11 forwarding](https://github.com/battle-lab/battle-lab-guide/blob/master/marcc_guide/x11_forwarding.md)
  - [Install PEER using Singularity](https://github.com/battle-lab/battle-lab-guide/blob/master/marcc_guide/software/PEER-singularity-docker.md)
 
