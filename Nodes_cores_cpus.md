@@ -25,9 +25,13 @@ Running multiple instructions in parallel would reduce the total time to complet
 
 ## Running jobs on MARCC:
 When we run jobs on MARCC or any cluster, we have to mention how many cores and how much memory we will use, because the cluster needs to assign these resources for us. The cluster would charge us for these resources.
+
 We should ask for exactly the number of cores and memories we plan to use. If our program does not use multiple cores at a time, we should ask for only one core. If we ask more, extra cores will simply be wasted though we will be charged :disappointed:.
+
 Though the number of cores and the amount of memories are two different concepts, MARCC associates them in their charging policy. For 1 core corresponds to ~4.5GB (4916MB) memory in most partitions (shared/lrgmem/debug), ~3.5GB (3583MB) in express/skylake. For simplicity, let's say each core corresponds to 4GB for the rest of the discussion. If we request 2 cores, we will be automatically assigned 2*4=8GB memory. If we request 10GB memory, we will automatically assigned ceiling(10/4)=3 cores. Once, someone from MARCC told me to ignore memory, to use just cores to allocate necessary resources.
-Note: this association between cores and memories is only for MARCC's charging policy, it does not determine how many cores our programs will use. For example, if our program uses only 1 core (no parallel programming), but it uses 10GB memory, we have to ask for 3 cores. Two cores will remain unused. If possible, we should parallelize our programs to use those 2 cores.
+
+**Note: this association between cores and memories is only for MARCC's charging policy, it does not determine how many cores our programs will use. For example, if our program uses only 1 core (no parallel programming), but it uses 10GB memory, we have to ask for 3 cores. Two cores will remain unused. If possible, we should parallelize our programs to use those 2 cores.**
+
 As I said before, generally our program cares about the total memory and the total number of cores. It does not care about if the memories/cores are coming from a single CPU or multiple. So, we need not care about memory-per-cpu, memory-per-node, or core-per-node as long as the total amount is ok. Those who carefully utilize memory-per-core-level details, please ignore this discussion-- you know what you are doing.
 So, I find the following variables useful when I submit a job on MARCC.
 
@@ -35,7 +39,7 @@ So, I find the following variables useful when I submit a job on MARCC.
 * --ntasks: number of tasks (cores) per node
 * --time: total time
 * --mem: total memory per node
-* 
+
 `nodes * ntasks` determines the total number of cores. I generally use nodes=1. MARCC has some guidelines on how to use nodes and ntasks when you use many cores. I can't find it though. Given the total memory is associated with the total number of cores, I completely ignore mem.
 A typical slurm job script header looks like below:
 
