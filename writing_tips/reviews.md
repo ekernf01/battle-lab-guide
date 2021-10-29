@@ -9,7 +9,7 @@ When you receive the reviewer comments, create a google doc containing all the r
 
 2. When a reviewer response involves referring to something in the manuscript, use page/line numbers to make the reference easy to find. Or, even better, copy the relevant lines/ figures into the response to reviewer file. (Some journals require the response to reviewer file to be text-only, so make sure this is permitted). *If you do this, make sure the copied line matches the manuscript exactly, even as you continue making edits to one or the other*
 
-3. It's okay to disagree with some reviewer comments, or not to go with their recommendations. If you (and Alexis/ collaborators) decide to do so, defend your reasoning clearly and politely. That said, be careful in how you choose your battles. If it's something you can feasibly do without significantly decreasing the quality of the paper, do it.
+3. It's okay not to take every single reviewer suggestion, but you should try to take many of them so they feel appeased. And for ones you don't take, make sure to include a brief but coherent justification.
 
 ## Style/ Tone
 This [APA Guide to Reviewer Response](https://apastyle.apa.org/style-grammar-guidelines/research-publication/response-reviewers) is helpful and provides an example of how to respond to reviewer comments. In particular, be direct in saying nice things to the reviewer, like starting responses with "We thank the reviewer for this suggestion" or "This is an important point". Acknowledge the high-level summaries that often start a reviewer response with a comment like "Thank you for the kind comments on our work". (See the example document for more examples of how to do this). 
