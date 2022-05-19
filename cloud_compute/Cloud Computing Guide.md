@@ -40,11 +40,11 @@
 
 ### Getting an account
 
-Request a new account from the lab administrators by sending a message on `#battle_lab_trainee`. You will receive a spreadsheet file with username, password, access key ID, secret access key, and console login link. 
+Request a new account from the lab administrators by sending a message on `#battle_lab_trainee`. You will receive a spreadsheet file with username, password, access key ID, secret access key, and console login link.
 
-Open the console login link and enter your username and password. 
+Open the console login link and enter your username and password.
 
-<img src="Cloud Computing Guide pics/login.png" alt="login" align="left" style="zoom:40%;"/>
+<img src="Cloud Computing Guide pics/login.png" alt="login" style="zoom:40%;"/>
 
 As of May 2022, on the first login, a popup will ask if you want to use the new user interface. The rest of this document assumes you are using the new user interface.
 
@@ -52,7 +52,7 @@ As of May 2022, on the first login, a popup will ask if you want to use the new 
 
 We are keeping all of our computing in the Ohio region (us-east-2). Make sure the region is Ohio by checking the top right of the management console. There is an IAM policy that prevents accessing EC2 on other regions.
 
-<img src="Cloud Computing Guide pics/region.png" alt="login" align="left" style="zoom:40%;"/>
+<img src="Cloud Computing Guide pics/region.png" alt="login" style="zoom:40%;"/>
 
 
 
@@ -68,7 +68,7 @@ AWS resources can be given tags, which are key-value pairs, that make organizati
 
 "Add additional tags" is completely optional. For example, you can have a project tag that specifies which project your instance is meant for.
 
-<img src="Cloud Computing Guide pics/tag.png" alt="login" align="left" style="zoom:40%;"/>
+<img src="Cloud Computing Guide pics/tag.png" alt="login" style="zoom:40%;"/>
 
 
 
@@ -80,7 +80,7 @@ Choose the distribution of linux you are most familiar with. If unsure, use Ubun
 
 **Instance type**
 
-Use the default t2.micro for this tutorial. 
+Use the default t2.micro for this tutorial.
 
 
 
@@ -88,7 +88,7 @@ Use the default t2.micro for this tutorial.
 
 If this is your first time, select "Create new key pair". Give the key pair name the same as your account. For "Private key file format", select ".pem" if you are using Linux/Mac to connect to AWS and ".ppk" if you are using PuTTY on Windows to connect to AWS. Click on "Create key pair" and save the private key somewhere safe. **YOU CANNOT CONNECT TO THIS EC2 INSTANCE WITHOUT THE PRIVATE KEY!**
 
-<img src="Cloud Computing Guide pics/keypair.png" alt="login" align="left" style="zoom:40%;"/>
+<img src="Cloud Computing Guide pics/keypair.png" alt="login" style="zoom:40%;"/>
 
 
 
@@ -96,7 +96,7 @@ If this is your first time, select "Create new key pair". Give the key pair name
 
 Under "Firewall (security groups)", choose "Select. existing security group" and pick "SSH_Access" from the drop down menu.
 
-<img src="Cloud Computing Guide pics/security group.png" alt="login" align="left" style="zoom:40%;"/>
+<img src="Cloud Computing Guide pics/security group.png" alt="login" style="zoom:40%;"/>
 
 **Configure storage**
 
@@ -251,13 +251,13 @@ Snapshots are incremental backups of a EBS volume. You can use them to restore y
 
 In the EC2 dashboard, click on your instance. In the bottom menu, navgiate to "Storage" > "Volume ID" and click on the link.
 
-<img src="Cloud Computing Guide pics/ec2 bottom.png" alt="login" align="left" style="zoom:80%;"/>
+<img src="Cloud Computing Guide pics/ec2 bottom.png" alt="login" style="zoom:80%;"/>
 
 
 
-Right click on the volume that is attached to your instance and select "Create snapshot". Navigate to the "Snapshots" menu on the left and wait for the snapshot to complete. The larger the EBS volume, the longer the wait. 
+Right click on the volume that is attached to your instance and select "Create snapshot". Navigate to the "Snapshots" menu on the left and wait for the snapshot to complete. The larger the EBS volume, the longer the wait.
 
-<img src="Cloud Computing Guide pics/create snapshot.png" alt="login" align="left" style="zoom:80%;"/>
+<img src="Cloud Computing Guide pics/create snapshot.png" alt="login" style="zoom:80%;"/>
 
 
 
@@ -276,8 +276,3 @@ TODO
 ###Using RStudio
 
 TODO
-
-
-
-
-
