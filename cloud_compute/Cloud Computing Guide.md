@@ -210,7 +210,7 @@ aws s3 cp victor_dummy_file.txt s3://battle-lab-test
 Download a file from test bucket
 
 ```shell
-aws s3 cp s3://battle-lab-test download_me .
+aws s3 cp s3://battle-lab-test sales.pdf .
 ```
 
 Download an entire S3 bucket to a local directory
