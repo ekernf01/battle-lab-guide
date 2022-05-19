@@ -94,7 +94,7 @@ If this is your first time, select "Create new key pair". Give the key pair name
 
 **Network settings**
 
-Under "Firewall (security groups)", choose "Select. existing security group" and pick "SSH_Access" from the drop down menu.
+Under "Firewall (security groups)", choose "Select. existing security group" and pick "Battle_Lab_SSH_access" from the drop down menu.
 
 <img src="Cloud Computing Guide pics/security group.png" alt="login" style="zoom:40%;"/>
 
