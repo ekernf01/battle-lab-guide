@@ -184,7 +184,7 @@ Default output format [None]: json
 
 ### Accessing lab data on S3 from your instance
 
-AWS CLI allows you to. use commands to manipulate files on S3.
+AWS CLI allows you to use commands to manipulate files on S3.
 
 
 
@@ -196,7 +196,7 @@ aws s3 ls
 
 Check contents of test bucket
 
-```shel
+```shell
 aws s3 ls s3://battle-lab-test
 ```
 
@@ -268,7 +268,8 @@ Suppose you are finished preliminary analysis and prototyping a pipeline. You wa
 After your new instance is up and running, terminate the old instance to save on compute costs, EBS space, and organize your AWS resources.
 
 ### Attaching multiple EBS volumes to a single EC2 instance
-Use case: Have 1 EBS volume act as root volume (smaller volume with the operating system and software)
+TODO
+Use case: Have the first EBS volume act as root volume (smaller volume with the operating system and software) and the second EBS volume act as a data only volume. That way, you can make snapshots of only the root volume when making a backup before installing new software, which shouldn't affect data.
 
 ### Using jupyter notebook
 
@@ -277,3 +278,6 @@ TODO
 ### Using RStudio
 
 TODO
+
+### Recommended instance types
+TODO: table of recommended instance types with use case and prices
