@@ -6,7 +6,7 @@
 
 ## Glossary
 
-**Regions** - AWS has physical datacenters around the world. For the Battle Lab, it is recommended to use all services on the Ohio (us-east-2) region because it is geographically close and a history of fewer outtages
+**Regions** - AWS has physical datacenters around the world. For the Battle Lab, it is recommended to use all services on the Ohio (us-east-2) region because it is geographically close and a history of fewer outages
 
 **EC2** - Elastic Compute Cloud: service that allows users to rent virtual computers
 
@@ -152,7 +152,7 @@ For Ubuntu, the package manager is `apt`. Run the two lines to update current pa
 ```shell
 sudo apt update && sudo apt upgrade
 
-sudo install unzip
+sudo apt install unzip
 ```
 
 
@@ -167,7 +167,7 @@ The EC2 instance costs $X per hour, even when sitting idle. To stop AWS from cha
 
 ### AWS CLI
 
-If using Amazon Linux, the AWS CLI is already installed. Otherwise, follow these [instructions](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) to install AWS CLI. Next we need to configure AWS CLI with your account's credentials. The access key ID and secret accress key can be found in the same csv file as your login information.
+If using Amazon Linux, the AWS CLI is already installed. Otherwise, follow these [instructions](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) to install AWS CLI. Next we need to configure AWS CLI with your account's credentials. The access key ID and secret access key can be found in the same csv file as your login information. **Treat the access key ID and secret access key as a password. If you suspect it's been stolen, notify an administrator user immediately.**
 
 
 
@@ -232,18 +232,18 @@ aws s3 rm s3://battle-lab-test/victor_dummy_file.txt
 ### Uploading data outside of AWS to S3
 
 1. SSH into your EC2 instance
-2. Use `scp` to download data from MARCC to your instance
+2. Use `scp` or `rsync` to download data from MARCC to your instance
 3. Use AWS CLI to upload data from your instance to S3
 
 
 
-You have to first download MARCC data to our EBS volume because AWS CLI cannot be installed on MARCC. For information on using `scp`, click [here](https://kb.iu.edu/d/agye).
+You have to first download MARCC data to our EBS volume because AWS CLI cannot be installed on MARCC. For information on using `scp`, click [here](https://kb.iu.edu/d/agye). For information on using `rsync`, click [here](https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories).
 
 
 
 ### Snapshots and switching instances
 
-Snapshots are incremental backups of a EBS volume. You can use them to restore your work to a previous state, or convert the snapshot into an AMI to launch a new instance with a different instance type.
+Snapshots are incremental backups of a EBS volume (similar to time machine on Mac). You can use them to restore your EBS volume to a previous state, or convert the snapshot into an AMI to launch a new instance with a different instance type.
 
 
 
@@ -267,12 +267,13 @@ Suppose you are finished preliminary analysis and prototyping a pipeline. You wa
 
 After your new instance is up and running, terminate the old instance to save on compute costs, EBS space, and organize your AWS resources.
 
-
+### Attaching multiple EBS volumes to a single EC2 instance
+Use case: Have 1 EBS volume act as root volume (smaller volume with the operating system and software)
 
 ### Using jupyter notebook
 
 TODO
 
-###Using RStudio
+### Using RStudio
 
 TODO
