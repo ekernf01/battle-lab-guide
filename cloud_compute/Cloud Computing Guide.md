@@ -280,4 +280,9 @@ TODO
 TODO
 
 ### Recommended instance types
-TODO: table of recommended instance types with use case and prices
+
+Prices are from 2023 Oct 17, in USD. 
+
+- `t2.micro`: 0.011 per hour. Great for first-timers and for testing light loads such as installing an R package.
+- `t2.xlarge`: 0.1856 per hour. This has 4 cores and 16GB of RAM; good for moderate loads or regular non-trivial use.
+- `m5a.8xlarge`: 1.37 per hour. This is expensive, about 33 dollars a day, but it is optimized for RAM: 128GB. This is good for **occasional** very RAM-heavy analyses; if you need this kind of resource frequently, bring it up with Alexis.
