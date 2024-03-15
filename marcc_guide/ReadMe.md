@@ -1,8 +1,19 @@
-# MARCC Guide
-## Scientific Computing resources
-If you have questions about using Linux on MARCC, check out the tutorials provided by the MARCC group here: https://www.marcc.jhu.edu/training/tutorial-series/
-and here: https://marcc-hpc.github.io/esc/. Core topics include: *custom environments, SLURM scheduling, singularity containers, code profiling and parallelization*.
-Resources for many other common lab questions are available here too, including:
+# Computing cluster guide
+
+Cloud computing is notoriously expensive. As a more affordable way to access large-scale computing, the Battle Lab invests in a share of the resources at a JHU-wide computing cluster. There is extensive info on the [Advanced Research Computing at Hopkins site](https://www.arch.jhu.edu/tutorials/). This is a typical academic computing cluster, with the following typical features:
+
+- You would typically log in with ssh, landing in a shell in a Linux operating system. 
+- It is a multi-user system, so many people are logged in issuing commands at once.
+
+Because it is a multi-user system:
+
+- it would disrupt other users' work if you run compute-heavy commands directly after login. Instead, you should describe your resource needs to a load balancer called Slurm, and it will put you in the queue and try to schedule you some time.
+- there is a limited ability to install your own software. Common solutions are conda, renv, venv, and singularity, all of which allow you to install software in a project-specific way instead of globally.
+
+Look at their [guide](https://www.arch.jhu.edu/guide/) and [tutorials](https://www.arch.jhu.edu/tutorials/) for details. 
+
+TODO: update these dead links
+
  - [Getting started](https://www.marcc.jhu.edu/training/intro-sessions/)
  - [Upload/download files to MARCC via command line (see *Storing and accessing data*)](https://www.marcc.jhu.edu/getting-started/basic/) or [via Globus](https://www.marcc.jhu.edu/transfer-data-globus/)
  - [Issues installing *packages in R*?](https://www.marcc.jhu.edu/managing-r-packages-a-case-study/)
