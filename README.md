@@ -1,11 +1,12 @@
 # Battle Lab Onboarding Guide
 Welcome to the lab!
 
-### Getting a MARCC account
-To get an account with MARCC, fill out an [account request form](https://www.marcc.jhu.edu/request-access/request-an-account/), and wait for PI approval
-Also check out the *[MARCC website](https://www.marcc.jhu.edu/getting-started/basic/)* and the MARCC folder
+### Getting a computing cluster account
 
-We also recommend reviewing the [marcc_guide](marcc_guide) for tips on using MARCC, access to `battle-bigmem` etc.
+To get an account with RockFish, fill out an account request form on their [site](https://coldfront.rockfish.jhu.edu/), and wait for PI approval.
+
+We also recommend reviewing the [marcc_guide](marcc_guide) (we used to use a cluster called MARCC).
+
 ### Using Slack
 If you're new to Slack, you should download the app on your phone and desktop.  Once you're added to the JHU Genomics Collective Slack group, here's a few public channels to join:  
 - `#general` and `#random` (automatically added)  
